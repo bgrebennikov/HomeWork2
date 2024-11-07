@@ -28,7 +28,7 @@ public class Main {
         // Task 4
         var friend = 19;
         System.out.printf("Task 4\nFriend: %s\n", friend);
-        friend +=2;
+        friend += 2;
         System.out.printf("(Upd) Friend: %s\n", friend);
         friend /= 7;
         System.out.printf("(Upd) Friend: %s\n\n", friend);
@@ -40,7 +40,7 @@ public class Main {
         System.out.printf("(Upd) Frog: %s\n", frog);
         frog /= 3.5;
         System.out.printf("(Upd) Frog: %s\n", frog);
-        frog+=4;
+        frog += 4;
         System.out.printf("(Upd) Frog: %s\n\n", frog);
 
         // Task 6
@@ -55,7 +55,30 @@ public class Main {
 
         // Task 7
         var divideRemainder = boxer2 % boxer1;
-        System.out.printf("Task 7\nDivide Remainder: %s\n", divideRemainder);
+        System.out.printf("\nTask 7\nDivide Remainder: %s\n", divideRemainder);
+
+        // Task 8
+        var hoursTotal = 640;
+        var hoursPerEmployee = 8;
+        var employeeCount = hoursTotal / hoursPerEmployee;
+
+        System.out.printf("""
+                
+                Task 8
+                Hours Total: %s
+                Hours per employee: %s
+                Всего работников в компании — %s человек
+                
+                
+                """, hoursTotal, hoursPerEmployee, employeeCount);
+
+        employeeCount += 94;
+        hoursTotal = employeeCount * hoursPerEmployee;
+
+        System.out.printf("""
+                Если в компании работает %s человек, то всего %s часов работы может быть поделено между сотрудниками
+                """, employeeCount, hoursTotal);
+
 
     }
 

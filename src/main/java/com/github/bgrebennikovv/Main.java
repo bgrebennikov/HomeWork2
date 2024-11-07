@@ -25,7 +25,13 @@ public class Main {
 
         System.out.printf("Task 3, New values:\nDog: %s\nCat: %s\nPaper: %s\n\n", dog, cat, paper);
 
-
+        // Task 4
+        var friend = 19;
+        System.out.printf("Task 4\nFriend: %s\n", friend);
+        friend +=2;
+        System.out.printf("(Upd) Friend: %s\n", friend);
+        friend /= 7;
+        System.out.printf("(Upd) Friend: %s\n", friend);
 
     }
 

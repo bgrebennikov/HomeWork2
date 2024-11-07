@@ -31,7 +31,17 @@ public class Main {
         friend +=2;
         System.out.printf("(Upd) Friend: %s\n", friend);
         friend /= 7;
-        System.out.printf("(Upd) Friend: %s\n", friend);
+        System.out.printf("(Upd) Friend: %s\n\n", friend);
+
+        // Task 5
+        var frog = 3.5;
+        System.out.printf("Task 5\nFrog: %s\n", frog);
+        frog *= 10;
+        System.out.printf("(Upd) Frog: %s\n", frog);
+        frog /= 3.5;
+        System.out.printf("(Upd) Frog: %s\n", frog);
+        frog+=4;
+        System.out.printf("(Upd) Frog: %s\n", frog);
 
     }
 

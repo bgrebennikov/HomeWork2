@@ -23,7 +23,8 @@ public class Main {
         cat -= 1.6;
         paper -= 7637;
 
-        System.out.printf("Task 2, New values:\nDog: %s\nCat: %s\nPaper: %s\n\n", dog, cat, paper);
+        System.out.printf("Task 3, New values:\nDog: %s\nCat: %s\nPaper: %s\n\n", dog, cat, paper);
+
 
 
     }

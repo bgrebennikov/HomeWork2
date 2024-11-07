@@ -41,7 +41,7 @@ public class Main {
         frog /= 3.5;
         System.out.printf("(Upd) Frog: %s\n", frog);
         frog+=4;
-        System.out.printf("(Upd) Frog: %s\n", frog);
+        System.out.printf("(Upd) Frog: %s\n\n", frog);
 
         // Task 6
         var boxer1 = 78.2;

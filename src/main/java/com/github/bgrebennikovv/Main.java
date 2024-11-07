@@ -50,8 +50,8 @@ public class Main {
         var boxerMassTotal = boxer1 + boxer2;
         var boxerMassDifference = Math.abs(boxer1 - boxer2);
 
-        System.out.printf("(Upd) Boxers Mass Total: %s\n", boxerMassTotal);
-        System.out.printf("(Upd) Boxers Mass Difference: %s\n", boxerMassDifference);
+        System.out.printf("Boxers Mass Total: %s\n", boxerMassTotal);
+        System.out.printf("Boxers Mass Difference: %s\n", boxerMassDifference);
 
     }
 

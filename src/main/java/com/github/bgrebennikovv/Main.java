@@ -18,6 +18,14 @@ public class Main {
 
         System.out.printf("Task 2, New values:\nDog: %s\nCat: %s\nPaper: %s\n\n", dog, cat, paper);
 
+        // Task 3
+        dog -= 3.5;
+        cat -= 1.6;
+        paper -= 7637;
+
+        System.out.printf("Task 2, New values:\nDog: %s\nCat: %s\nPaper: %s\n\n", dog, cat, paper);
+
+
     }
 
 }

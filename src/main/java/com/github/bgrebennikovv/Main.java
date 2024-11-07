@@ -43,6 +43,16 @@ public class Main {
         frog+=4;
         System.out.printf("(Upd) Frog: %s\n", frog);
 
+        // Task 6
+        var boxer1 = 78.2;
+        var boxer2 = 82.7;
+
+        var boxerMassTotal = boxer1 + boxer2;
+        var boxerMassDifference = Math.abs(boxer1 - boxer2);
+
+        System.out.printf("(Upd) Boxers Mass Total: %s\n", boxerMassTotal);
+        System.out.printf("(Upd) Boxers Mass Difference: %s\n", boxerMassDifference);
+
     }
 
 }

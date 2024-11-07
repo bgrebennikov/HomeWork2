@@ -53,6 +53,10 @@ public class Main {
         System.out.printf("Boxers Mass Total: %s\n", boxerMassTotal);
         System.out.printf("Boxers Mass Difference: %s\n", boxerMassDifference);
 
+        // Task 7
+        var divideRemainder = boxer2 % boxer1;
+        System.out.printf("Task 7\nDivide Remainder: %s\n", divideRemainder);
+
     }
 
 }

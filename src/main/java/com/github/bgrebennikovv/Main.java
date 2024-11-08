@@ -73,7 +73,7 @@ public class Main {
                 """, hoursTotal, hoursPerEmployee, employeeCount);
 
         employeeCount += 94;
-        hoursTotal = employeeCount * hoursPerEmployee;
+        hoursTotal = hoursTotal / employeeCount;
 
         System.out.printf("Если в компании работает %s человек, то всего %s часов работы может быть поделено между сотрудниками", employeeCount, hoursTotal);
 
